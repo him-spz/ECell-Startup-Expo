@@ -1300,3 +1300,9 @@ a {
   font-size: 18px;
   color: white;
 }
+
+@media only screen and (max-width: 768px) {
+  .pri-con{
+    flex-direction: column;
+  }
+}
